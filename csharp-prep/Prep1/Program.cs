@@ -1,9 +1,14 @@
-using System;
-
-class Program
+#nullable disable
+public class Prep1
 {
-    static void Main(string[] args)
+    public void Run()
     {
-        Console.WriteLine("Hello Prep1 World!");
+        Console.Write("First Name? ");
+        string first = Console.ReadLine();
+
+        Console.Write("Last Name? ");
+        string last = Console.ReadLine();
+
+        Console.WriteLine($"Your name is {last}, {first} {last}.");
     }
 }
