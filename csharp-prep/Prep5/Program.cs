@@ -1,7 +1,7 @@
 #nullable disable
 public class Prep5
 {
-    public void Run()
+   static void Main(string[] args)
     {
         DisplayWelcomeMessage();
 
