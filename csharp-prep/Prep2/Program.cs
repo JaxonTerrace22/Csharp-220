@@ -1,7 +1,7 @@
 #nullable disable
 public class Prep2
 {
-    public void Run()
+    static void Main(string[] args)
     {
         Console.Write("What is your grade percentage? ");
         
