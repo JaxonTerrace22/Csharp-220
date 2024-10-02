@@ -1,7 +1,7 @@
 #nullable disable
 public class Prep1
 {
-    public void Run()
+    static void Main(string[] args)
     {
         Console.Write("First Name? ");
         string first = Console.ReadLine();
