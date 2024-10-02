@@ -1,7 +1,7 @@
 #nullable disable
 public class Prep4
 {
-    public void Run()
+    static void Main(string[] args)
     {
         List<int> numbers = new List<int>();
         int userNumber = -1;
