@@ -106,7 +106,7 @@ class Playlist
 class User
 {
     public string Username { get; set; }
-    public string Password { get; set; } // Should ideally be stored securely
+    public string Password { get; set; }
     public List<Playlist> Playlists { get; private set; }
     public List<Video> VideoHistory { get; private set; }
 
